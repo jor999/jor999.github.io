@@ -1,6 +1,5 @@
 /* CSS Document */
 .space {
-	width:99vw;
 	background-image:url(pictures/nightsky.jpg);
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -35,4 +34,12 @@ h2 {
 
 a {
 	color:white;
+}
+
+img {
+	border-color:black;
+	border-width:2px;
+	position:center center;
+	align-content: flex-end;
+	padding:1px;
 }
