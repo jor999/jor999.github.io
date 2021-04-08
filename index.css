@@ -1,7 +1,12 @@
 /* CSS Document */
 .space {
-	width:100vw;
-	background-image:url(pictures/nightsky.jpg)
+	width:99vw;
+	background-image:url(pictures/nightsky.jpg);
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	background-color:black;
 	
 }
 .welcome {
@@ -9,7 +14,7 @@
 	border-color:white;
 	border-style:solid;
 	border-width:2px;
-	width:98%;
+	width:96vw;
 	padding:5px;
 	font-family: soleil, sans-serif;
 	font-weight: 400;
@@ -22,9 +27,10 @@ p {
 
 h2 {
 	color:white;
-	font-family: soleil, sans-serif;
-	font-weight: 400;
+	font-family: highgate, sans-serif;
+	font-weight: 300;
 	font-style: normal;
+	width:90vw;
 }
 
 a {
