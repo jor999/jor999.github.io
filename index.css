@@ -37,9 +37,12 @@ a {
 }
 
 img {
-	border-color:black;
-	border-width:2px;
 	position:center center;
 	align-content: flex-end;
 	padding:1px;
+}
+
+.pics {
+	align-content:space-between;
+	
 }
