@@ -50,6 +50,7 @@ h3 {
 
 a {
 	color:white;
+	display:block;
 }
 
 img {
@@ -75,6 +76,8 @@ img {
 }
 
 .dropdowngroup {
+	position:relative;
+	display:inline-block;
 	
 }
 
@@ -86,7 +89,7 @@ img {
 	border-width:thin;
 	border-style:solid;
 	border-radius:2px;
-	width:69%;
+	width:69vw;
 	padding:7px;
 	font-family: highgate, sans-serif;
 	font-weight: 300;
@@ -94,23 +97,28 @@ img {
 }
 
 .dropdownbox {
-	position:center center;
-	padding:5px;
+	position:absolute;
+	padding:7px;
 	display:none;
 	border-width:thin;
 	border-style:solid;
 	border-radius:2px;
+	border-color:white;
+	z-index:1;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	width:69vw;
 }
 
 .dropdownhover:hover ~
 .dropdownbox {
 	display:block;
-	border-width:thin;
-	border-style:solid;
-	border-radius:2px;
+	
 }
 
-
+.dropdowngroup:hover ~
+.dropdownbox {
+	display:block;
+}
 
 
 
