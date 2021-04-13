@@ -24,7 +24,23 @@ p {
 	color:white;
 }
 
+h1 {
+	color:white;
+	font-family: highgate, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	width:90vw;
+}
+
 h2 {
+	color:white;
+	font-family: highgate, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	width:90vw;
+}
+
+h3 {
 	color:white;
 	font-family: highgate, sans-serif;
 	font-weight: 300;
