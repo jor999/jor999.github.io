@@ -84,12 +84,12 @@ img {
 .dropdownhover {
 	color:white;
 	position:relative;
-	display:inline-block;
+	display:block;
 	background-color:#1c1c1c;
 	border-width:thin;
 	border-style:solid;
 	border-radius:2px;
-	width:69vw;
+	width:900px;
 	padding:7px;
 	font-family: highgate, sans-serif;
 	font-weight: 300;
@@ -104,6 +104,8 @@ img {
 	border-style:solid;
 	border-radius:2px;
 	border-color:white;
+	width:900px;
+	text-align: center;
 	z-index:1;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	background-color:rgba(0,0,0,0.2);
@@ -112,12 +114,15 @@ img {
 .dropdownhover:hover ~
 .dropdownbox {
 	display:block;
-	
+	text-align: center;
+	align-content:center;
 }
 
 .dropdowngroup:hover ~
 .dropdownbox {
 	display:block;
+	text-align: center;
+	align-content:center;
 }
 
 
